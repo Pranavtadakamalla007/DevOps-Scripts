@@ -1,5 +1,6 @@
 #!/bin/bash
 
+#Declaring variables
 URL="https://www.tooplate.com/zip-templates/2137_barista_cafe.zip"
 FILE_NAME="2137_barista_cafe"
 FILE_TYPE="zip"
