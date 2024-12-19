@@ -27,7 +27,7 @@ Group=ec2-user
 WantedBy=multi-user.target
 
 
+add a cronjob:
 crontab -e
-
 add this 
 @reboot /home/ec2-user/latest_artifact.sh
