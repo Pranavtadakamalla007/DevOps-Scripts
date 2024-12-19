@@ -25,3 +25,9 @@ Group=ec2-user
 
 [Install]
 WantedBy=multi-user.target
+
+
+crontab -e
+
+add this 
+@reboot /home/ec2-user/latest_artifact.sh
